@@ -22,6 +22,10 @@ body {
   
   .section1 {
     grid-row: 1 / 2;
+    background: url(h_img.jpg) no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;;
   }
   
   .section2 {
@@ -71,4 +75,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+  .bg-image{
+    background-image: url('h_img.jpg');
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
+  }
