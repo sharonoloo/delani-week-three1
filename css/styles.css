@@ -30,10 +30,18 @@ body {
   
   .section2 {
     grid-row: 2 / 2;
+    background-color: #fff;
+    background-size: cover;
+    height: 200px;
+    position: relative;
   }
   
   .section3 {
     grid-row: 5 / 6;
+    background: url(s_img.jpg) no-repeat center; 
+    background-size: cover;
+    height: 500px;
+    position: relative;
   }
   .section4 {
     grid-row: 6 / 7;
