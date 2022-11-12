@@ -71,6 +71,9 @@ body {
   p{
     text-align: center;
   }
+  .pwhite{
+    color: #fff;
+  }
   .centered {
     position: absolute;
     top: 50%;
