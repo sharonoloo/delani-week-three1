@@ -1,4 +1,16 @@
-$(document).ready(function() {
+//$(selector).action(callback);
+$(document).ready(function(){
+    $("form").submit(function(event){
+        let name = $("#name").val();
+        let email = $("#email").val();
+        alert(name);
+        alert(email);
+
+        event.preventDefault();
+    });
+
+});
+/* $(document).ready(function() {
     $("h1").click(function() {
       alert("This is a header.");
     });
@@ -16,4 +28,4 @@ $(document).ready(function() {
       }, function(){
       $(this).css("background-color", "pink");
     });
-  
+   */

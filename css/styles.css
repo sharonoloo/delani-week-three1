@@ -110,3 +110,6 @@ body {
     background-color: transparent;
     color: #fff;
   }
+  .btn-form{
+    position: centered;
+  }
