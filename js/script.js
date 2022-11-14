@@ -11,4 +11,9 @@ $(document).ready(function() {
       alert("This is an image.");
     });
   });
+    $("p").hover(function(){
+      $(this).css("background-color", "yellow");
+      }, function(){
+      $(this).css("background-color", "pink");
+    });
   
