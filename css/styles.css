@@ -98,3 +98,15 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  #email{
+    background-color: transparent;
+    color: #fff;
+  }
+  #name{
+    background-color: transparent;
+    color: #fff;
+  }
+  #description{
+    background-color: transparent;
+    color: #fff;
+  }
